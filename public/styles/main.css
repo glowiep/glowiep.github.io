@@ -26,7 +26,8 @@ body::-webkit-scrollbar-thumb {
     box-sizing: border-box;
 }
 
-header {
+/* Work in progress */
+/* header {
     background: linear-gradient(200deg, hsl(220, 30%, 30%), hsl(190, 10%, 10%)) no-repeat;
     line-height: 2.5em;
     width: 100%;
@@ -36,7 +37,7 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 2;
     position: fixed;
-}
+} */
 
 a {
     margin: 1em 0 0 0;
