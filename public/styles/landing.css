@@ -1,5 +1,10 @@
-#intro {
+.intro {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#intro2 {
   font-size: 1em;
+  color: whitesmoke;
 }
 
 .background{

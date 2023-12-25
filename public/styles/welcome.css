@@ -58,3 +58,9 @@
     display: none;
   }
 }
+
+@media (max-height: 620px) {
+  div.text {
+    display: none;
+  }
+}
