@@ -62,4 +62,7 @@ a {
     .container{
         width: 90%;
     }
+    div .projbox {
+        width: 90%;
+    }
 }
