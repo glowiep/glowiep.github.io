@@ -1,0 +1,42 @@
+/* 'Welcome' skew on hover styling */
+.text {
+  display: flex;
+  justify-content: center;
+  top: 110px;
+  position: absolute;
+  font-family: serif;
+  transform: translateY(-50%);
+  text-align: center;
+  transition: transform .3s ease-in-out;
+  
+  &:hover {
+    transform: rotateX(35deg), translateY(-50%);   
+    span {
+      color: black;
+      &:nth-child(odd) {
+        transform: skewY(15deg);
+      }
+      &:nth-child(even) {
+        transform: skewY(-15deg);      
+        background-color: rgba(202, 193, 252, 0.982);
+        color: black;
+      }
+    }
+  }
+  
+  > span {
+    display: block;
+    background-color: white;backdrop-filter: blur(15px);
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    transition: transform .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out;
+    box-shadow: 0 50px 80px rgba(1,1,1,0.1);
+    &:first-child  {
+      border-radius: 5px 0 0 5px;
+    }
+    &:last-child  {
+      border-radius: 0 5px 5px 0;
+    }
+  }
+}
