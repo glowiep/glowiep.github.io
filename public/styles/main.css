@@ -67,3 +67,21 @@ a {
         width: 90%;
     }
 }
+
+@media (max-width: 320px) {
+    .child {
+        min-width: 280px;
+    }
+    
+    .container{
+        min-width: 280px;
+    }
+
+    .projects {
+        min-width: 280px;
+    }
+
+    .background{
+        min-width: 280px;
+    }
+}
